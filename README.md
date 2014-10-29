@@ -1,5 +1,4 @@
 ﻿## ode-docker-client
-   =================
 Apache ODE Docker based build client.
 
 A shell script ode-docker-client.sh used to initiate a docker container for building Apache ODE source code. 
@@ -9,7 +8,8 @@ information of the login user and running the buildr process with in the docker 
 
 ## Usage:
 copy the shell script to the directory where Apache ODE source code exists.
-./ode-docker-client.sh clean package test=all
+
+## ./ode-docker-client.sh clean package test=all
 
 ## Thanks:
 - The shell script is based on the [post](http://marmelab.com/blog/2014/09/10/make-docker-command.html)
