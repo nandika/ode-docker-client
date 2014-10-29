@@ -7,7 +7,7 @@ Docker container run as root user and the artifacts created from the build are u
 information of the login user and running the buildr process with in the docker container as the login user.
 
 ## Usage:
-copy the shell script to the directory where Apache ODE source code exists.
+Copy the shell script to the directory where Apache ODE source code exists and then execute the command as shown below.
 
 ```
 ./ode-docker-client.sh clean package test=all
